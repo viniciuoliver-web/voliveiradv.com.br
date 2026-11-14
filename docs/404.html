@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Página não encontrada | VMO</title><meta name="robots" content="noindex"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><style>
+/* VOICE: editorial sóbrio de banca empresarial, sem adjetivo
+   IDEA: a própria newsletter impressa, agora legível na web
+   PICTURE: a foto da edição, em P&B, ocupando a largura da coluna
+   COLOUR and TYPE: branco e preto, cinzas de apoio; Inter variável
+   LAYOUT: coluna de leitura de 720px, faixas de número com fio fino */
+@font-face{font-family:"Inter";src:url("/assets/fonts/inter-var-latin.woff2") format("woff2");font-weight:100 900;font-display:swap}
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0e0e0e);--ink:light-dark(#111111,#f1f1f1);--mut:light-dark(#5c5c5c,#a6a6a6);--rule:light-dark(#dcdcdc,#2c2c2c);--inv:light-dark(#111111,#f1f1f1);--invink:light-dark(#ffffff,#111111)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-feature-settings:"cv11","ss01";overflow-x:clip}
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1080px;margin:0 auto;padding:0 max(5vw,18px)}
+.col{max-width:720px;margin:0 auto}
+.top{border-bottom:1px solid var(--rule)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:12px;text-decoration:none}
+.brand b{font-size:24px;font-weight:800;letter-spacing:-.02em}
+.brand span{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.nav a{font-size:14px;font-weight:600;text-decoration:none;padding:12px 0;display:inline-block}
+.nav a[aria-current]{text-decoration:underline}
+.crumbs{font-size:13px;color:var(--mut);margin:22px 0 0}
+.crumbs a{color:var(--mut)}
+.kick{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:0 0 14px}
+h1,h2{text-wrap:balance;letter-spacing:-.025em;margin:0}
+h1{font-size:clamp(38px,6.2vw,62px);line-height:1.03;font-weight:800}
+h2{font-size:clamp(26px,3.6vw,34px);line-height:1.12;font-weight:750}
+.dek{font-size:clamp(18px,2.2vw,21px);line-height:1.45;color:var(--mut);margin:18px 0 0}
+.by{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mut);margin:22px 0 0;padding:14px 0 0;border-top:1px solid var(--rule)}
+.by strong{color:var(--ink);font-weight:600}
+.mast{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:34px 0 26px;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+figure{margin:36px 0 0}
+figcaption{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-top:10px}
+.stat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 36px;align-items:center;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:24px 0;margin:36px 0 0}
+.stat .n{font-size:clamp(40px,6vw,58px);font-weight:800;letter-spacing:-.03em;line-height:1;white-space:nowrap}
+.stat p{margin:0;font-size:13px;line-height:1.5;color:var(--mut)}
+.stat p b{display:block;color:var(--ink);font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.norma{font-size:14px;line-height:1.55;color:var(--mut);margin:14px 0 0}
+section{margin:44px 0 0}
+section p{margin:14px 0 0}
+.pull{font-size:clamp(20px,2.6vw,24px);line-height:1.35;font-weight:650;letter-spacing:-.01em;margin:28px 0 0;padding-left:18px;border-left:3px solid var(--ink)}
+.cen{border-top:1px solid var(--rule);padding:22px 0;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:6px 32px;align-items:start}
+.cen:last-of-type{border-bottom:1px solid var(--rule)}
+.cen .l{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin:0 0 6px}
+.cen .v{font-size:clamp(34px,5vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1.05;white-space:nowrap;margin:0}
+.cen p{margin:0;font-size:16px}
+.box{background:var(--inv);color:var(--invink);padding:22px 24px;margin:28px 0 0}
+.box strong{display:block;font-size:19px;font-weight:700;letter-spacing:-.01em}
+.box span{display:block;font-size:15px;margin-top:4px;opacity:.85}
+.notes{font-size:13px;line-height:1.55;color:var(--mut);margin:14px 0 0}
+details{margin:22px 0 0;border:1px solid var(--rule)}
+summary{cursor:pointer;font-size:15px;font-weight:650;padding:14px 18px;min-height:44px}
+details .in{padding:0 18px 18px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 8px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+thead th{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mut);font-weight:700}
+tr.t td{font-weight:750;border-bottom:0}
+.diag{border-top:2px solid var(--ink);margin:30px 0 0;padding-top:16px}
+.diag b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.diag span{display:block;font-size:15px;margin-top:4px}
+.disc{font-size:13px;color:var(--mut);margin:18px 0 0}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin:34px 0 0}
+.btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;font-size:15px;font-weight:650;text-decoration:none;border:1.5px solid var(--ink)}
+.btn.p{background:var(--ink);color:var(--bg)}
+.card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:22px 32px;align-items:center;text-decoration:none;border-top:1px solid var(--rule);padding:26px 0}
+.card:last-child{border-bottom:1px solid var(--rule)}
+.card h3{font-size:clamp(24px,3.2vw,30px);line-height:1.12;letter-spacing:-.02em;margin:6px 0 0;text-wrap:balance}
+.card p{margin:10px 0 0;color:var(--mut);font-size:16px}
+.card .meta{display:block;line-height:1.5;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.card .go{display:inline-block;margin-top:14px;font-size:15px;font-weight:650;text-decoration:underline}
+.lead{font-size:clamp(19px,2.3vw,22px);line-height:1.5;margin:18px 0 0}
+.who{font-size:15px;color:var(--mut);margin:16px 0 0}
+.foot{border-top:1px solid var(--rule);margin-top:72px}
+.foot .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 24px;padding-top:22px;padding-bottom:34px;font-size:13px;color:var(--mut)}
+.foot a{color:var(--mut)}
+@media(max-width:600px){body{font-size:16.5px}.stat,.cen,.card{grid-template-columns:minmax(0,1fr)}.brand span{display:none}th,td{padding:8px 5px;font-size:13px}}
+@media print{.top,.foot,.acts,.crumbs{display:none}details{border:0}details>*{display:block}}
+</style></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/"><b>VMO</b><span>Advocacia Empresarial</span></a><nav class="nav"><a href="/business-letter/">Business Letter</a></nav></div></header>
+<main class="wrap"><div class="col"><div class="mast" style="margin-top:40px"><span>Erro 404</span><span>VMO</span></div><h1>Página não encontrada.</h1><p class="dek">O endereço pode ter mudado. As edições estão reunidas na Business Letter.</p><div class="acts"><a class="btn p" href="/business-letter/">Ir para a Business Letter</a><a class="btn" href="/">Início</a></div></div></main></body></html>

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "01-fim-da-escala-6x1",
+    "numero": "01",
+    "data": "2026-11-13",
+    "data_humana": "13 de novembro de 2026",
+    "mes_ano": "Novembro de 2026",
+    "editoria": "Trabalho / Gestão / Risco",
+    "secao": "Trabalho",
+    "titulo_html": "A jornada muda.<br>A conta também.",
+    "titulo": "A jornada muda. A conta também.",
+    "subtitulo": "O que o fim da escala 6×1 pode representar para a sua empresa.",
+    "seo_titulo": "Fim da escala 6x1: o custo de manter a jornada antiga | VMO",
+    "seo_descricao": "Com a EC 141/2026, a jornada cai para 42h e depois 40h semanais. Simulação do custo de manter 44h ou usar o sábado como hora extra, com reflexos.",
+    "palavras_chave": ["fim da escala 6x1", "EC 141/2026", "jornada de 42 horas", "jornada de 40 horas", "hora extra", "passivo trabalhista", "gestão de jornada"],
+    "leitura_min": 3,
+    "imagem": "bl01-capa",
+    "imagem_alt": "Vista de cima de uma mesa de trabalho com notebooks, tablet, celulares e planilhas impressas, em preto e branco",
+    "og_imagem": "bl01-og.jpg",
+    "og_subtitulo": "Fim da escala 6×1: o que muda para a sua empresa.",
+    "pdf": "vmo-business-letter-01-fim-da-escala-6x1.pdf",
+    "legislacao": {"nome": "Emenda Constitucional nº 141/2026", "data": "2026-10-16"}
+  }
+]
