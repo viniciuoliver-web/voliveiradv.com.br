@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>A fatura de R$ 9 mil — VMO The Business Letter nº 02</title>
+<style>
+/* Inter em TTF estático (instanciada da fonte do site): a variável sairia como Type 3 no PDF */
+@font-face{font-family:"InterPDF";src:url("fontes/inter-400.ttf") format("truetype");font-weight:400}
+@font-face{font-family:"InterPDF";src:url("fontes/inter-600.ttf") format("truetype");font-weight:600}
+@font-face{font-family:"InterPDF";src:url("fontes/inter-700.ttf") format("truetype");font-weight:700}
+@font-face{font-family:"InterPDF";src:url("fontes/inter-800.ttf") format("truetype");font-weight:800}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"InterPDF",sans-serif;color:#111;font-size:12.5px;line-height:1.55;font-feature-settings:"cv11","ss01";-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:210mm;height:297mm;padding:13mm 13mm 0;position:relative;overflow:hidden;page-break-after:always;display:flex;flex-direction:column}
+.pg:last-child{page-break-after:auto}
+.hd{display:flex;align-items:baseline;gap:16px;padding-bottom:9px;border-bottom:1px solid #d6d6d6}
+.hd b{font-size:24px;font-weight:800;letter-spacing:-.02em}
+.hd span{font-size:9px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#6b6b6b}
+.hd .r{margin-left:auto}
+.wrap{flex:1}
+.ft{display:flex;justify-content:space-between;font-size:8.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#6b6b6b;border-top:1px solid #d6d6d6;padding:9px 0 0;height:15mm}
+.kick{font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:16px 0 0}
+h1{font-size:44px;line-height:1.04;font-weight:800;letter-spacing:-.03em;margin:12px 0 0}
+.dek{font-size:14.5px;line-height:1.45;color:#5c5c5c;margin:10px 0 0;max-width:150mm}
+.hero{margin:16px 0 0;height:76mm;background:url("../../docs/assets/img/bl02-capa.jpg") center 42%/cover}
+.cap{font-size:8.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#6b6b6b;margin:7px 0 0}
+.stat{display:grid;grid-template-columns:auto 1fr;gap:4px 34px;align-items:center;border-top:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;padding:12px 0;margin:12px 0 0}
+.stat .n{font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1;white-space:nowrap}
+.stat .arr{width:30px;height:16px;vertical-align:middle;margin:0 2px 4px}
+.stat p{font-size:10px;line-height:1.45;color:#5c5c5c}
+.stat p b{display:block;color:#111;font-size:10px;letter-spacing:.07em;text-transform:uppercase}
+.lead{font-size:14px;line-height:1.5;margin:14px 0 0}
+h2{font-size:23px;line-height:1.12;font-weight:700;letter-spacing:-.02em;margin:18px 0 0}
+h2.big{font-size:34px;line-height:1.08;letter-spacing:-.03em;font-weight:800;margin:16px 0 0}
+p{margin:8px 0 0}
+.row{display:grid;grid-template-columns:1fr 43mm;gap:8mm;align-items:start;margin:10px 0 0}
+.ph{width:100%;aspect-ratio:4/5;background-size:cover;background-position:center}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:11.5px}
+th,td{padding:7px 6px;border-bottom:1px solid #d6d6d6;text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal;padding-left:0}
+thead th{font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;color:#6b6b6b;font-weight:700}
+tr.t td{font-weight:700;border-bottom:0}
+.pull{font-size:15px;line-height:1.35;font-weight:600;letter-spacing:-.01em;margin:14px 0 0;padding-left:12px;border-left:3px solid #111}
+.notes,.norma{font-size:9.5px;line-height:1.5;color:#6b6b6b;margin:8px 0 0}
+ul{margin:8px 0 0;padding-left:15px}
+li{margin:6px 0 0;padding-left:2px}
+.box{background:#111;color:#fff;padding:13px 16px;margin:12px 0 0}
+.box strong{font-size:15px;font-weight:700;letter-spacing:-.01em}
+.diag{border-top:2px solid #111;margin:14px 0 0;padding-top:9px}
+.diag b{display:block;font-size:9.5px;letter-spacing:.07em;text-transform:uppercase}
+.diag span{display:block;font-size:11px;margin-top:2px}
+.disc{font-size:9px;color:#6b6b6b;margin:8px 0 0}
+.rule{border-top:1px solid #d6d6d6;margin:16px 0 0}
+</style>
+</head>
+<body>
+
+<div class="pg">
+<div class="hd"><b>VMO</b><span>The Business Letter</span><span class="r">Nº 02 / Nov 2026</span></div>
+<div class="wrap">
+<p class="kick">Contratos / Câmbio / Risco</p>
+<h1>A fatura de R$&nbsp;9&nbsp;mil</h1>
+<p class="dek">O dólar passou de R$&nbsp;6. Quem ficou com o risco nos contratos que já tinham preço fechado?</p>
+<div class="hero" role="img" aria-label="Notebook aberto sobre uma mesa, com cédulas de dólar saindo da tela"></div>
+<p class="cap">Imagem ilustrativa / Custo em dólar</p>
+<div class="stat"><div class="n" aria-label="De 5 para 6 reais">R$&nbsp;5 <svg class="arr" viewBox="0 0 26 14" aria-hidden="true"><path d="M1 7h22M17 1.5 23 7l-6 5.5" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="square"/></svg> R$&nbsp;6</div><p><b>Dólar na simulação</b>Em 23/11/2026, o dólar comercial passou de R$&nbsp;6 durante o pregão</p></div>
+<p class="lead">Em 23 de novembro, o dólar comercial passou de R$&nbsp;6 durante o pregão. Eu pensei em quem vende serviço a preço fixo em reais e paga parte da operação em dólar. Imagine que esse é o seu caso.</p>
+<h2>Um terço do que sobrava</h2>
+<div class="row">
+<div>
+<p style="margin:0">Seu cliente paga R$&nbsp;8&nbsp;mil por mês. Para atender esse cliente, você compra uma licença de US$&nbsp;1&nbsp;mil por mês.</p>
+<table style="margin-top:8px"><thead><tr><th>Na simulação</th><th>Dólar a R$&nbsp;5</th><th>Dólar a R$&nbsp;6</th></tr></thead><tbody><tr><td>O que o cliente paga</td><td>R$ 8 mil</td><td>R$ 8 mil</td></tr><tr><td>O que você paga pela licença</td><td>R$ 5 mil</td><td>R$ 6 mil</td></tr><tr class="t"><td>O que sobra antes dos outros custos</td><td>R$ 3 mil</td><td>R$ 2 mil</td></tr></tbody></table>
+</div>
+<div class="ph" role="img" aria-label="Prato com um maço de cédulas de dólar, entre colher e garfo" style="background-image:url('../../docs/assets/img/bl02-prato.jpg')"></div>
+</div>
+<p class="pull">A licença ficou 20% mais cara. O valor que sobrava depois de pagá-la caiu um terço.</p>
+<p class="notes">Simulação hipotética, com valores mensais. Não inclui tributos nem custos de câmbio, como IOF e spread.</p>
+</div>
+<div class="ft"><span>VMO / Advocacia Empresarial</span><span>01 / 02</span></div>
+</div>
+
+<div class="pg">
+<div class="hd"><b>VMO</b><span>The Business Letter</span><span class="r">Nº 02 / Nov 2026</span></div>
+<div class="wrap">
+<div class="row" style="grid-template-columns:1fr 50mm;margin-top:16px">
+<div>
+<h2 class="big" style="margin-top:0">“Posso mandar a próxima fatura de R$&nbsp;9&nbsp;mil?”</h2>
+<p style="margin-top:12px">Quem comprou a licença em dólar foi você. Seu cliente contratou um serviço por R$&nbsp;8&nbsp;mil fixos. Se o contrato ficou em silêncio sobre o repasse, o risco desse custo ficou com você.</p>
+</div>
+<div class="ph" role="img" aria-label="Mãos com pulseiras segurando e soltando cédulas de dólar" style="background-image:url('../../docs/assets/img/bl02-maos.jpg')"></div>
+</div>
+<p>O Código Civil manda respeitar a divisão de riscos pactuada e trata a revisão judicial como excepcional. O STJ já aplicou essa lógica ao rejeitar, num contrato entre partes em condições de igualdade, a revisão do preço de um equipamento importado após uma forte alta do dólar.</p>
+<p class="norma">Base normativa: Código Civil, art. 421, parágrafo único, e art. 421-A, II e III, incluídos pela Lei nº 13.874/2019. Precedente: STJ, REsp 1.321.614/SP, 3ª Turma, rel. p/ acórdão Min. Ricardo Villas Bôas Cueva, julgado em 16/12/2014 (equipamento médico importado, preço em dólar, maxidesvalorização do real de 1999). Em relação de consumo, a análise segue o Código de Defesa do Consumidor.</p>
+<div class="rule"></div>
+<h2>O que eu escreveria antes de assinar</h2>
+<p>Eu começaria pelo custo da licença em reais no dia da assinatura. A partir daí, deixaria três respostas na minuta.</p>
+<ul>
+<li><b>Quanto de oscilação cabe no preço fechado?</b> Essa é a faixa de risco que você assume.</li>
+<li><b>O que aciona a revisão?</b> Defina a variação mínima do custo, como ela é comprovada e se a regra também se aplica quando o custo cai.</li>
+<li><b>O que acontece quando esse limite é atingido?</b> O contrato deve dizer como funciona a revisão e a partir de quando ela pode ter efeito.</li>
+</ul>
+<p>Aqui a redação faz diferença. A lei brasileira restringe a vinculação de pagamentos à moeda estrangeira, mesmo quando a cobrança é feita em reais. Um critério para reavaliar um custo comprovado tem finalidade diferente de um reajuste automático pela cotação.</p>
+<p class="norma">Base normativa: Código Civil, art. 318; Lei nº 10.192/2001, art. 1º, parágrafo único, I, com a redação da Lei nº 14.286/2021; Lei nº 14.286/2021, art. 13, que lista as exceções. Reajuste por índice de preços ou de custos só é admitido em contratos de prazo igual ou superior a um ano e não pode ter periodicidade inferior a um ano (Lei nº 10.192/2001, art. 2º).</p>
+<p>Antes de fechar o próximo preço em reais, faça a pergunta que faltou nessa história.</p>
+<div class="box"><strong>Se o dólar subir, a diferença entra na fatura ou sai da sua margem?</strong></div>
+<div class="diag"><b>Contratos com custo em moeda estrangeira</b><span>VMO | Advocacia Empresarial | OAB/MG 219.408</span></div>
+<p class="disc">Cenário hipotético. Conteúdo de caráter informativo, que não substitui a análise do caso concreto.</p>
+</div>
+<div class="ft"><span>VMO / Advocacia Empresarial</span><span>02 / 02</span></div>
+</div>
+
+</body>
+</html>

@@ -20,5 +20,27 @@
     "og_subtitulo": "Fim da escala 6×1: o que muda para a sua empresa.",
     "pdf": "vmo-business-letter-01-fim-da-escala-6x1.pdf",
     "legislacao": {"nome": "Emenda Constitucional nº 141/2026", "data": "2026-10-16"}
+  },
+  {
+    "slug": "02-dolar-e-preco-fixo",
+    "numero": "02",
+    "data": "2026-11-23",
+    "data_humana": "23 de novembro de 2026",
+    "mes_ano": "Novembro de 2026",
+    "editoria": "Contratos / Câmbio / Risco",
+    "secao": "Contratos",
+    "titulo_html": "A fatura de R$&nbsp;9&nbsp;mil",
+    "titulo": "A fatura de R$ 9 mil",
+    "subtitulo": "O dólar passou de R$ 6. Quem ficou com o risco nos contratos que já tinham preço fechado?",
+    "seo_titulo": "Dólar a R$ 6 e preço fixo: quem fica com o risco? | VMO",
+    "seo_descricao": "O dólar passou de R$ 6. Se você vende a preço fixo em reais e paga custos em dólar, veja quem fica com o risco e o que deixar escrito no contrato.",
+    "palavras_chave": ["variação cambial", "contrato de preço fixo", "alocação de riscos", "revisão contratual", "art. 421-A do Código Civil", "reajuste contratual", "custo em dólar"],
+    "leitura_min": 3,
+    "imagem": "bl02-capa",
+    "imagem_alt": "Notebook aberto sobre uma mesa, com cédulas de dólar saindo da tela, em preto e branco",
+    "og_imagem": "bl02-og.jpg",
+    "og_subtitulo": "O dólar passou de R$ 6. Quem fica com o risco do preço fechado?",
+    "pdf": "vmo-business-letter-02-dolar-e-preco-fixo.pdf",
+    "legislacao": {"nome": "Código Civil, art. 421-A (incluído pela Lei nº 13.874/2019)", "data": "2019-09-20"}
   }
 ]

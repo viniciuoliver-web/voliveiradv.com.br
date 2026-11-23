@@ -31,4 +31,9 @@ A partir da raiz do repositório:
    links quebrados ou JSON-LD inválido.
 9. Faça o commit na `main` e o push. O Pages publica em cerca de um minuto.
 
+Edição enviada só como texto (sem PDF do dono), como a nº 02: monte a versão impressa em `fonte/impressos/blNN.html`
+(copie `bl02.html`; A4, Inter em TTF de `fonte/impressos/fontes/`, imagens de `docs/assets/img/`) e gere
+`fonte/originais/blNN-original.pdf` com `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers python3 fonte/ferramentas/impresso.py NN`
+(o script avisa se alguma página estoura). Depois siga do passo 6. O texto do dono vai em `fonte/originais/blNN-texto.md`.
+
 Prévia sem publicar: `python3 fonte/build.py --previa /tmp/previa` (links com index.html, sem PDF).

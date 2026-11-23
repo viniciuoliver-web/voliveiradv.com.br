@@ -74,6 +74,10 @@ figcaption{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:up
 .norma{font-size:14px;line-height:1.55;color:var(--mut);margin:14px 0 0}
 section{margin:44px 0 0}
 section p{margin:14px 0 0}
+section ul,section ol{margin:16px 0 0;padding-left:1.25em}
+section li{margin:10px 0 0;padding-left:.2em}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.duo figcaption{grid-column:1/-1;margin-top:0}
 .pull{font-size:clamp(20px,2.6vw,24px);line-height:1.35;font-weight:650;letter-spacing:-.01em;margin:28px 0 0;padding-left:18px;border-left:3px solid var(--ink)}
 .cen{border-top:1px solid var(--rule);padding:22px 0;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:6px 32px;align-items:start}
 .cen:last-of-type{border-bottom:1px solid var(--rule)}
